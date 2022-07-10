@@ -22,7 +22,7 @@ def harvest_message(x, y, list_plants):
 def Lettuce_harvest(score):
     weather_sltd = random.randint(20, 75)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("30", "60", list_plants[7])
         harvest_choice(
             Fore.GREEN + list_plants[7], Fore.GREEN + str(weather_sltd))
@@ -50,7 +50,7 @@ def Lettuce_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Lettuce_harvest(score)
         return score
@@ -59,7 +59,7 @@ def Lettuce_harvest(score):
 def Tomatoes_harvest(score):
     weather_sltd = random.randint(50, 120)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("60", "100", list_plants[8])
         harvest_choice(
             Fore.RED + list_plants[8], Fore.RED + str(weather_sltd))
@@ -87,7 +87,7 @@ def Tomatoes_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Tomatoes_harvest(score)
         return score
@@ -96,7 +96,7 @@ def Tomatoes_harvest(score):
 def Beans_harvest(score):
     weather_sltd = random.randint(50, 70)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message(
             "65", "more,but don't wait to long, if you need it fresh", list_plants[9])
         harvest_choice(
@@ -118,7 +118,7 @@ def Beans_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Beans_harvest(score)
         return score
@@ -127,7 +127,7 @@ def Beans_harvest(score):
 def Scallion_harvest(score):
     weather_sltd = random.randint(50, 85)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("60", "80", list_plants[0])
         harvest_choice(
             Fore.GREEN + list_plants[0], Fore.GREEN + str(weather_sltd))
@@ -155,7 +155,7 @@ def Scallion_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Scallion_harvest(score)
         return score
@@ -164,7 +164,7 @@ def Scallion_harvest(score):
 def Eggplant_harvest(score):
     weather_sltd = random.randint(80, 150)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("100", "120", list_plants[1])
         harvest_choice(
             Fore.GREEN + list_plants[1], Fore.GREEN + str(weather_sltd))
@@ -192,7 +192,7 @@ def Eggplant_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Eggplant_harvest(score)
         return score
@@ -201,7 +201,7 @@ def Eggplant_harvest(score):
 def Summer_squash_harvest(score):
     weather_sltd = random.randint(50, 65)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message(
             "60", "more,but don't wait to long, if you need it fresh", list_plants[2])
         harvest_choice(
@@ -223,7 +223,7 @@ def Summer_squash_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Summer_squash_harvest(score)
         return score
@@ -232,7 +232,7 @@ def Summer_squash_harvest(score):
 def Pepper_harvest(score):
     weather_sltd = random.randint(50, 120)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("60", "90", list_plants[3])
         harvest_choice(
             Fore.RED + list_plants[3], Fore.RED + str(weather_sltd))
@@ -260,7 +260,7 @@ def Pepper_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Pepper_harvest(score)
         return score
@@ -270,7 +270,7 @@ def Strawberries_harvest(score):
 
     weather_sltd = random.randint(105, 160)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("120", "140", list_plants[4])
         harvest_choice(
             Fore.RED + list_plants[4], Fore.RED + str(weather_sltd))
@@ -298,7 +298,7 @@ def Strawberries_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Strawberries_harvest(score)
         return score
@@ -307,7 +307,7 @@ def Strawberries_harvest(score):
 def Thyme_harvest(score):
     weather_sltd = random.randint(20, 35)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message(
             "28", "more,but don't wait to long, if you need it fresh", list_plants[5])
         harvest_choice(
@@ -329,7 +329,7 @@ def Thyme_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Thyme_harvest(score)
         return score
@@ -338,7 +338,7 @@ def Thyme_harvest(score):
 def Cucumber_harvest(score):
     weather_sltd = random.randint(40, 85)
     type = input("Type YES, to make a random selection.")
-    if type == "yes":
+    if type == "YES":
         harvest_message("50", "70", list_plants[6])
         harvest_choice(
             Fore.GREEN + list_plants[6], Fore.GREEN + str(weather_sltd))
@@ -366,7 +366,7 @@ def Cucumber_harvest(score):
             techniques.show_score(score)
             return score
 
-    elif type != "yes" or type == "":
+    elif type != "YES" or type == "":
         print(Fore.RED + "No selection made.")
         Cucumber_harvest(score)
         return score
