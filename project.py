@@ -34,7 +34,7 @@ def inst():
 
 
 print(Fore.GREEN + Back.WHITE + Style.DIM +
-      "Welcome to your HERTICULTURE GAME.")
+      "Welcome to your HORTICULTURE GAME ENVIRONMENT.")
 print(Fore.GREEN + Back.WHITE + Style.DIM + "Here we train while playing")
 print(Fore.GREEN + Back.WHITE + Style.DIM +
       "making this game best for fun and technics")
